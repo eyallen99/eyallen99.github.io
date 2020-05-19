@@ -1,0 +1,156 @@
+a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+}
+header {
+     background-color: #ecf8fa;
+     padding: 60px;
+
+}
+
+header .logo a {
+     background-image: url("images/PLA logo.png");
+     background-size: 100px;
+     background-repeat: no-repeat;
+     display: inline-block;
+     height: 68px;
+     position: relative;
+     text-indent: -99999px;
+     top: -34px;
+     width: 100px;
+     padding-right: 500px;
+}
+body {
+     font-family: proxima nova;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+}
+button {
+     width: 160px;
+     height: 34px;
+     border: 1px solid #77b3bb;
+     background-color: #77b3bb;
+     color: white;
+     font-family: proxima nova;
+     font-size: 14px;
+     font-weight: 500;
+     letter-spacing: 1.6px;
+
+}
+
+h1{
+     margin: auto;
+     padding-top: 70px;
+     width: 600px;
+     line-height: 32px;
+     font-size: 30px;
+     text-align: center;
+     color: #e18373;
+}
+
+h3 {
+     margin: auto;
+     width: 300px;
+     line-height: 32px;
+     font-size: 20px;
+     color: #e18373;
+     font-weight: 500;
+     letter-spacing: 3.3px;
+}
+
+section {
+     background: white;
+     padding: 50px;
+     display: flex;
+     flex-direction: row;
+
+}
+
+section.home.quote div {
+     margin: auto;
+     width: 350px;
+     line-height: 35px;
+     font-size: 20px;
+     text-align: center;
+
+}
+
+section.home.panels div {
+     margin: auto;
+     padding: 50px;
+     width: 300px;
+     line-height: 32px;
+     font-size: 17px;
+
+}
+
+section.about.text div {
+     margin: auto;
+     width: 450px;
+     line-height: 32px;
+     font-size: 17px;
+     text-align: left;
+}
+
+section.about.text2 div {
+     margin: auto;
+     width: 300px;
+     line-height: 32px;
+     font-size: 20px;
+     text-align: center;
+}
+
+section.review-quotes div {
+     margin: auto;
+     width: 500px;
+     line-height: 32px;
+     font-size: 20px;
+     font-weight: 600;
+     text-align: center;
+     color: #e18373;
+}
+
+.buy div {
+     background: white;
+     padding: 40px;
+     display: flex;
+     flex-direction: row;
+
+}
+
+ul {
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+}
+
+
+li {
+     display: inline-block;
+     margin-right: 40px;
+     float: right;
+     font-size: 15px;
+     font-weight: 600;
+     letter-spacing: 1.6px;
+
+}
+a {
+     text-decoration: none !important;
+}
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:#77b3bb; }
+a:focus { text-decoration: none; color:#77b3bb; }
+a:hover, a:active { text-decoration: none; color:#77b3bb }
+
+li:hover {
+     color: #77b3bb;
+}
+}
+}
+
+
+footer {
+     background: gray;
+     padding: 10px 20px;
+}
